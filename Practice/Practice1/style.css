@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #1a73e8;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 96px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  border: 1px solid aliceblue;
+  border-radius: 12px;
+  flex-direction: column;
+  padding: 24px;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+div button {
+  border: 1px solid red;
+  border-radius: 12px;
+  padding: 6px 12px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+div button:hover {
+  background-color: darkred;
+}
+
+.firstdiv button:hover {
+  background-color: #155ab6;
+}
+
+div .checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.firstdiv input {
+  padding: 10px;
+  border: 2px solid #1a73e8;
+  border-radius: 12px;
+  width: 60%;
+}
+
+.firstdiv button {
+  padding: 10px 24px;
+  border: none;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.seconddiv,
+.thirddiv,
+.fourthdiv {
+  border-bottom: 2px dotted gray;
+  padding-bottom: 16px;
+}
