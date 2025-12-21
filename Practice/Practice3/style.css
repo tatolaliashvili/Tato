@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: times;
+}
+
+body {
+  background-color: #071a28;
+}
+
+header {
+  background-color: #040f18;
+  padding: 32px;
+  color: aliceblue;
+}
+
+.firsth1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+.firsttext h1 {
+  font-size: 56px;
+  padding: 124px 0 24px;
+}
+
+.firsttext p {
+  font-size: 18px;
+}
+
+.firsttext {
+  text-align: right;
+  margin-left: 30%;
+}
+
+img {
+  width: 180px;
+  height: 120px;
+}
+
+main {
+  padding: 56px 124px;
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  padding: 64px 0 32px;
+}
+
+.table1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0 56px;
+}
+
+table,
+th,
+td {
+  border: 2px solid red;
+  border-collapse: collapse;
+  padding: 16px;
+  font-size: 24px;
+}
+
+th {
+  background-color: red;
+}
+
+table {
+  width: 70%;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li {
+  padding: 8px 0;
+}
+
+.td1 {
+  text-align: center;
+}
+
+td {
+  width: 150px;
+}
+
+h3,
+a {
+  font-size: 24px;
+  text-align: center;
+  padding: 32px 0;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+footer {
+  background-color: #4f2d1d;
+  color: aliceblue;
+  padding: 24px 0;
+  text-align: center;
+}
