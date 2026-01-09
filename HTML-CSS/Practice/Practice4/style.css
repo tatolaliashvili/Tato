@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #69b99d;
+}
+
+.bckcolor {
+  display: flex;
+  justify-content: center;
+}
+
+.middleimg {
+  width: 520px;
+  height: 515px;
+}
+
+button img {
+  width: 24px;
+  height: 24px;
+}
+
+.container {
+  background-color: white;
+  width: 1280px;
+  height: 740px;
+  margin-top: 96px;
+  padding: 64px;
+}
+
+.head1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 56px;
+}
+
+.head1 a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #89c5cc;
+  margin-left: 45px;
+}
+
+.head1 a:hover {
+  font-weight: 900;
+}
+
+.head2 {
+  display: flex;
+  gap: 36px;
+}
+
+.head2 a {
+  color: black;
+  font-size: 18px;
+}
+
+.head2 a:hover {
+  font-weight: 900;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.middletext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.middletext h1 {
+  font-size: 36px;
+}
+
+.middletext h1 span {
+  color: #89c5cc;
+}
+
+.middletext p {
+  color: grey;
+}
+
+.middletext p span {
+  color: black;
+  font-weight: 900;
+}
+
+.middletext button {
+  width: 126px;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 6px;
+  border: none;
+  background-color: #69b99d;
+  color: white;
+  cursor: pointer;
+}
+
+.middletext button:hover {
+  font-weight: 900;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 42px;
+  font-size: 12px;
+}
+
+.footer span {
+  font-weight: 900;
+}
+
+.footer img {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ballsdeco {
+  width: 98px;
+  height: 88px;
+  position: absolute;
+  bottom: 130px;
+  right: 320px;
+}
