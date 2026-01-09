@@ -1,20 +1,20 @@
-import random
+def a():
+    print('a() starts')
+    b()
+    d()
+    print('a() returns')
 
-while True:
-    def get_answer(answer_number):
-        if answer_number == 1:
-            return 'It is certain'
-        elif answer_number == 2:
-            return 'Yes'
-        elif answer_number == 3:
-            return 'very doubtful'
-        elif answer_number == 4:
-            return 'my reply is no'
-        elif answer_number == 5:
-            return 'no'
+def b():
+    print('b() starts')
+    c()
+    print('b() returns')
 
-    print('Ask a yes or no question:')
-    input('>')
-    r = random.randint(1,5)
-    fortune = get_answer(r)
-    print(fortune)
+def c():
+    print('c() starts')
+    print('c() returns')
+
+def d():
+    print('d() starts')
+    print('d() returns')
+
+a()
