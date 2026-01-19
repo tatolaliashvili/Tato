@@ -1,0 +1,1 @@
+number = (lambda x: a + b)
